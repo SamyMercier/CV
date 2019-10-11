@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV Mercier Samy</title>
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="font">
+<div id="bg">
+    <div class="border" id="photo"><img id="photo-size" src="fakephoto.jpg" alt="identity photo"></div>
+    <div style="display: inline-block">
+        <ul class="liststyle" style="font-size:30px">
+            <li>Mercier Samy</li>
+            <li>59610 FOURMIES</li>
+        </ul></div>
+    <div>
+        <ul class="liststyle">
+            <li><h2>Expériences professionelles :</h2></li>
+            <li>2018-2019 : Service Civique au centre social de Fourmies secteur jeune pour une mission contre le décrochage scolaire, principalement affecté au niveau des activitées robotique </li>
+
+            <li><h2>Compétences :</h2></li>
+            <li>html / css / python</li>
+            <li>Bon niveau en anglais oral, et très bon niveau en anglais écrit</li>
+
+            <li><h2>Formations :</h2></li>
+            <li>2018 : Baccalauréat Général série scientifique option sciences de l'ingénieur</li>
+            <li>2020 : Developpeur Web et Web Mobile avec UpTo Fourmies</li>
+        </ul>
+    </div>
+    <div id="formmainstyle">
+        <div style="display: inline-block">
+            <form method="post" action="mailto:samy.pereger@gmail.com" style="min-width:300px">
+                <h1 id="title-form">Me contacter</h1>
+                <label id="form-nom" for="Nom">Nom :</label>
+                <p class="formtextstyle"><input type="text" id="Nom" name="answer" required minlength="4" maxlength="8" size="10"></p>
+                <label id="form-prénom" for="Prénom">Prénom :</label>
+                <p class="formtextstyle"><input id=Prénom name="Answer" required minlength="4" maxlength="8" size="10"></p>
+                <p id="form-genre">Genre :</p>
+                <p id="genre-style">
+                <input type="radio" id="masculin" name="genre"><label for="masculin">Masculin</label>
+                <input type="radio" id="feminin" name="genre"><label for="feminin">Feminin</label>
+                <input type="radio" id="autre" name="genre"><label for="autre">Autre</label>
+                </p>
+                <label id="formmessage" for="message">Message :</label>
+                <p class="formtextstyle"><textarea id="message" name="champ-message" rows="5" cols="20"></textarea></p>
+                <input id="button" type="submit" value="Envoyer">
+            </form>
+        </div>
+        <div id="icon-ghithub" style="display: inline-block"><a href="https://github.com/SamyMercier" target="_blank"><img title="Mon GitHub" id="img-resizing" src="github1600.png" alt="github icon"></a></div>
+    </div>
+</div>
+</body>
+</html>
